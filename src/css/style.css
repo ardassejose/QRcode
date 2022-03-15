@@ -1,0 +1,60 @@
+.background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EAF6;
+    width: 100%;
+}
+
+.cartao {
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    position: relative;
+    width: 310px;
+    height: 450px;
+    gap: 30px;
+    padding: 20px 0;
+    border-radius: 25px;
+}
+
+.qrcode {
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imagem {
+    position: relative;
+    max-width: 280px;
+    border-radius: 10px;
+}
+
+.areatexto {
+    display: contents;
+    padding: ;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-top: -70px;
+}
+
+.areatexto .titulo {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.areatexto .descricao {
+    color: #778899;
+    position: relative;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+}
